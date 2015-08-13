@@ -5,6 +5,9 @@ body{
 .mainHeader{
 	height: 70px;
 	background-color: #C84742;
+	position: fixed;
+	z-index: 500;
+	width: 100%;
 }
 
 .mainHeader 
@@ -76,6 +79,7 @@ body{
 
 .banner {
 	height: 850px;
+	margin-top: 70px;
 	background-color: #BBB;
 	background-image: url(Images/banner.jpg);
 	background-repeat: no-repeat;
