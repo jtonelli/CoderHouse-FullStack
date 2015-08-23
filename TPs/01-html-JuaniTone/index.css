@@ -543,7 +543,7 @@ body{
 	}
 }
 
-.experiencie{
+.experience{
 	background-color: #E4E4E4;
 	overflow: auto;
 	padding: 60px 0;
@@ -552,7 +552,7 @@ body{
 	font-family: 'Tahoma';
 }
 
-.experiencie 
+.experience 
 .titulo{
 	font-size: 30px;
 	font-weight: 500;
@@ -560,7 +560,7 @@ body{
 	margin-bottom: 10px;
 }
 
-.experiencie 
+.experience 
 .texto{
 	color: rgb(133, 133, 133);
 	font-size: 16px;
@@ -568,8 +568,8 @@ body{
 	margin-bottom: 50px;
 }
 
-.experiencie 
-.experiencie-container{
+.experience 
+.experience-container{
 	max-width: 1170px;
 
 	margin-top: 20px;
@@ -578,14 +578,14 @@ body{
 	margin-right: auto;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection{
 	position: relative;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist{
 	list-style: none;
@@ -594,8 +594,8 @@ body{
 }
 
 /* The line */
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist:before {
     top: 0;
@@ -608,8 +608,8 @@ body{
     margin-left: -1.5px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem:first-child {
@@ -619,8 +619,8 @@ body{
 	height: 60px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem {
@@ -630,8 +630,8 @@ body{
 	position: relative;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem
@@ -644,8 +644,8 @@ body{
 	z-index: 30;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem
@@ -658,8 +658,8 @@ body{
 	z-index: 31;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem-flex {
@@ -671,8 +671,8 @@ body{
 	justify-content:space-around;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem-no-flex {
@@ -682,8 +682,8 @@ body{
 	border-bottom-width: 1px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem-flex
@@ -709,8 +709,8 @@ body{
 
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem-no-flex
@@ -736,8 +736,8 @@ body{
 
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .date-container
@@ -748,8 +748,8 @@ body{
 }
 
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .date-container
@@ -758,8 +758,8 @@ body{
 	font-size: 13px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem-flex
@@ -769,8 +769,8 @@ body{
 	padding-right: 40px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem-flex
@@ -780,8 +780,8 @@ body{
 	padding-left: 40px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem-no-flex
@@ -791,8 +791,8 @@ body{
 	margin-right: 50%;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .timelineItem-no-flex
@@ -802,8 +802,8 @@ body{
 	margin-left: 50%;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .article-container-left
@@ -821,8 +821,8 @@ body{
     text-align: right;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .article-container-left
@@ -834,8 +834,8 @@ body{
     font-size: 18px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .article-container-left
@@ -847,8 +847,8 @@ body{
     font-size: 14px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .article-container-left
@@ -858,8 +858,8 @@ body{
     margin: 0 0 10px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .article-container-left
@@ -872,8 +872,8 @@ body{
     font-size: 12px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .article-container-right
@@ -891,8 +891,8 @@ body{
     text-align: left;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .article-container-right
@@ -904,8 +904,8 @@ body{
     font-size: 18px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .article-container-right
@@ -917,8 +917,8 @@ body{
     font-size: 14px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .article-container-right
@@ -928,8 +928,8 @@ body{
     margin: 0 0 10px;
 }
 
-.experiencie 
-.experiencie-container
+.experience 
+.experience-container
 .timelineSection
 .timelinelist
 .article-container-right
@@ -942,7 +942,7 @@ body{
     font-size: 12px;
 }
 
-.porfolio{
+.portfolio{
 	background-color: rgb(24, 24, 24);
 	overflow: auto;
 	padding: 60px 0;
@@ -951,7 +951,7 @@ body{
 	font-family: 'Tahoma';
 }
 
-.porfolio 
+.portfolio 
 .titulo{
 	color: #CC4646;
 	font-size: 30px;
@@ -959,7 +959,7 @@ body{
 	margin-bottom: 10px;
 }
 
-.porfolio 
+.portfolio 
 .texto{
 	color: rgb(133, 133, 133);
 	font-size: 16px;
@@ -969,12 +969,12 @@ body{
 	padding-right: 15px;
 }
 
-.porfolio  
+.portfolio  
 .menu{
 	display: inline-block;
 }
 
-.porfolio
+.portfolio
 .menu 
 .menuList {
 	margin: 0;
@@ -982,7 +982,7 @@ body{
 	list-style: none;
 }
 
-.porfolio
+.portfolio
 .menu 
 .menuList 
 .menuItem {
@@ -994,7 +994,7 @@ body{
 	font-size: 18px;
 }
 
-.porfolio
+.portfolio
 .menu 
 .menuList 
 .menuItem:first-child {
@@ -1005,7 +1005,7 @@ body{
 }
 
 
-.porfolio
+.portfolio
 .gallery-container{
 	max-width: 1170px;
 	margin-top: 20px;
@@ -1014,7 +1014,7 @@ body{
 	margin-right: auto;
 }
 
-.porfolio
+.portfolio
 .gallery-container
 .flex-container {
 	padding: 0;
@@ -1030,7 +1030,7 @@ body{
 	justify-content: space-around;
 }
 
-.porfolio
+.portfolio
 .gallery-container
 .flex-container
 .flex-item {
@@ -1040,7 +1040,7 @@ body{
 	margin-top: 10px;
 }
 
-.porfolio
+.portfolio
 .gallery-container
 .flex-container
 .flex-item
@@ -1050,7 +1050,7 @@ body{
 }
 
 @media screen and (max-width: 1024px) {
-	.porfolio
+	.portfolio
 	.gallery-container {
 		display: block;
 	}
