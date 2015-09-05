@@ -1,0 +1,1 @@
+exports.test = 'Index.js de OtroModulo';
