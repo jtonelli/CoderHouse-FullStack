@@ -1,6 +1,6 @@
 var TokenGenerator = require( 'token-generator' )({
-        salt: 'your secret ingredient for this magic recipe',
-        timestampMap: 'abcdefghij', // 10 chars array for obfuscation proposes 
+        salt: 'Ju4n17one$',
+        timestampMap: 'abcdefghij', // 16 chars array for obfuscation proposes 
     });
 var bodyParser = require('body-parser');
 var express = require('express');
@@ -81,10 +81,13 @@ app.get('/auth/', function (req, res) {
 		if(err){
 				console.log('Error - ', err);
 				res.status(400).end();
+		}
+		else{
+			if(!user){
+				console.log('No se encontro el usuario');
+				res.status(400).end();
 			}
 			else{
-				// console.log('Usuario', user);
-				// res.json(user);
 				query = { _id : user._id};
 				var update = { token : TokenGenerator.generate() };
 				User.update(query, update, function(err, user){
@@ -99,22 +102,48 @@ app.get('/auth/', function (req, res) {
 						});
 					}
 				});
+			}
 		}
 	});
 });
 
 app.put('/Users/:userId', function (req, res) {
 
-	var query = {email: req.params.userId};
-	var update = req.body;
-	User.update(query, update, function(err, user){
+	//Seguridad
+	var tokenreq = req.headers.authorization;
+	var query = {token: tokenreq};
+
+	User.findOne(query, function(err, user){
 		if(err){
-			console.log('Error - ', err);
-			res.status(400).end();
+				console.log('Error - ', err);
+				res.status(400).end();
 		}
 		else{
-			console.log(user);
-			res.status(201).end();
+			if(!user){
+				console.log('Token invalido');
+				res.status(400).end();
+			}
+			else if(user.email == req.params.userId){
+				//Actualizo por esta OK
+				query = { _id : user._id};
+				var update = req.body;
+
+				User.update(query, update, function(err, userupd){
+					if(err){
+						console.log('Error - ', err);
+						res.status(400).end();
+					}
+					else{
+						console.log(userupd);
+						res.status(201).end();
+					}
+				});
+			}
+			else{
+				console.log('No tiene permisos para actualizar este usuario');
+				res.status(400).end();
+			}
+			
 		}
 	});
 });
